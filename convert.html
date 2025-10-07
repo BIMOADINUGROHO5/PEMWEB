@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+  <title>Formulir Mahasiswa</title>
+</head>
+<body>
+
+<header>
+  <h1>Formulir Data Diri Mahasiswa</h1>
+</header>
+
+<main>
+  <section>
+    <article>
+      <h2>Isi Form di Bawah Ini</h2>
+      <form method="POST">
+        <p>
+          <label>Nama Lengkap:</label><br>
+          <input type="text" name="nama" required autofocus>
+        </p>
+
+        <p>
+          <label>Email:</label><br>
+          <input type="email" name="email" required>
+        </p>
+
+        <p>
+          <label>Website/Blog:</label><br>
+          <input type="url" name="website" placeholder="contoh: https:/bimo/">
+        </p>
+
+        <p>
+          <label>Tanggal Janji Temu:</label><br>
+          <input type="date" name="tanggal" required>
+        </p>
+
+        <p>
+          <label>Jarak Rumah ke Kampus (km):</label><br>
+          <input type="range" name="jarak" min="0" max="50" step="5">
+        </p>
+
+        <p>
+          <label>Warna Favorit:</label><br>
+          <input type="color" name="warna">
+        </p>
+
+        <p>
+          <button type="submit">Kirim</button>
+        </p>
+      </form>
+    </article>
+  </section>
+
+  <section>
+    <article>
+      <h2>Data yang Telah Diisi</h2>
+      <table>
+        </tr>
+      </table>
+    </article>
+  </section>
+</main>
+
+<footer>
+</footer>
+
+</body>
+</html>
